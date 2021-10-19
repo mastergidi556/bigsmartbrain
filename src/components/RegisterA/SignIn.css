@@ -1,0 +1,125 @@
+html {
+    background: rgba(20,157,242, 0.3);
+}
+
+.jumbotron {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 40px 10px  ;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px #333333;
+
+}
+
+.wrapperrhs{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 15px;
+    /* justify-content: center; */
+    padding-top: 15px;
+    margin-bottom: 30px;
+
+  }
+  
+  .txtbox {
+    width: 85%;
+    margin: 0 auto;
+    background: #ebeaea;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    color: #4B4CA8;
+    }
+  
+  .txtbox input {
+    width: 87.5%;
+    background: none;
+    outline: none;
+    height: 50px;
+    border: 0;
+    font-size: 15px;
+    padding: 5px 0px 5px 20px;
+    color: rgba(20,157,242, 0.8);
+  
+  }
+  
+  ::placeholder {
+    color: rgba(20,157,242, 0.7);
+  }
+  .create{
+    padding-top: 20px;
+  }
+
+.landTexts {
+    text-align: center;
+    margin: 50px 0 10px 0;
+}
+
+.signline {
+    font-weight: 700;
+}
+    
+.signline:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.buttonss {
+    margin: 0 auto;
+    text-align: center;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.butter {
+    height: 45px;
+    width: 80%;
+    border-radius: 22.5px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 700;
+    outline: none;
+}
+
+.butter:hover {
+    background: #149df2;
+    color: white;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .jumbotron {
+        display: flex;
+        /* height: 100vh; */
+        justify-content: center;
+        border: 1px solid gray;
+        align-items: center;
+        margin: 70px auto;
+        padding: 50px 10px;
+    }
+    .logoWrap{
+        /* flex: 0.9; */
+        margin-right: 20px;
+        width: 65%;
+    }
+    .rightSide {
+        /* flex: 1; */
+        padding-left: 2em;
+        padding-bottom: 50px;
+        width: 350px;
+        border-left: 1px solid gray;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .logoWrap{
+        width: 50%;
+    }
+}

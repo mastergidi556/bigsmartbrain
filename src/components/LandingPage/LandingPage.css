@@ -1,0 +1,90 @@
+html {
+    background: rgba(20,157,242, 0.3);
+}
+
+.jumbotronn {
+    max-width: 90%;
+    margin: 100px auto;
+    padding: 40px 10px  ;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px #333333;
+
+}
+
+.landText {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.buttonss {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.butt {
+    height: 45px;
+    width: 40%;
+    border-radius: 22.5px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 700;
+    outline: none;
+}
+
+.butt:hover {
+    background: #149df2;
+    color: white;
+
+}
+
+@media only screen and (min-width: 800px) {
+    .bodyWrapper {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .jumbotron {
+        display: flex;
+        /* height: 100vh; */
+        justify-content: center;
+        border: 1px solid gray;
+        align-items: center;
+        margin: 70px auto;
+        padding: 50px 10px;
+    }
+
+    .forEvery {
+        flex-direction: row;
+        justify-content: space-between;
+        background: white;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    .logoWrap{
+        /* flex: 0.9; */
+        margin-right: 20px;
+        width: 65%;
+    }
+    .rightSide {
+        /* flex: 1; */
+        padding-left: 20px;
+        padding-bottom: 50px;
+        width: 350px;
+        border-left: 1px solid gray;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .logoWrap{
+        width: 50%;
+    }
+}
